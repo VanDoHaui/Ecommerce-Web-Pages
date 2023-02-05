@@ -1,0 +1,136 @@
+.navigation ul {
+  list-style: none;
+    margin-left: 101px;
+    padding: 0;
+    margin-top: 3px;
+}
+.navigation ul li {
+  display: inline-block;
+}
+.navigation-list li a {
+    text-decoration: none;
+  display: inline-block;
+  color: #000;
+  padding: 1em;
+  position: relative;
+}
+.slash::after {
+  content: "";
+  width: 2px;
+  height: 1em;
+  background: hotpink;
+  position: absolute;
+  right: 0;
+  top: 1em;
+  bottom: 0;
+  transform: rotate(25deg);
+}
+.product-details{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 101px;
+}
+.small-img-preview{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.big-img-preview{
+    background-color:  #F3F3F3;
+    margin-left: 30px;
+}
+.mr32{
+    margin: 32px;
+}
+.des-product{
+    margin-left: 29px;
+    margin-right: 101px;
+}
+.header-des{
+    display: flex;
+    gap: 262px;
+    margin-top: 8px;
+}
+.text-color{
+font-family: 'Poppins';
+font-size: 28px;
+font-weight: 700;
+color: #231F20;
+line-height: 42px;
+}
+.heart{
+   padding-top: 13px;
+}
+.price-des{
+    font-family: 'Montserrat';
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+
+}
+.select-color{
+    margin-top: 30px;
+    display: flex;
+    gap: 16px;
+}
+.color{
+    border: 1px solid rgba(112, 112, 112, 0.5) ;
+
+    padding: 10px;
+    font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+
+}
+.add-to-cart{
+    
+    display: flex;
+    margin-top: 25px;
+}
+.btn-add{
+    font-family: 'Montserrat';
+font-size: 20px;
+font-weight: 400;
+padding: 10px 180px;
+line-height: 24px;
+color: #fff;
+background-color:  rgba(0, 65, 151, 1);
+border: none;
+}
+.para-des{
+    margin-top: 25px;
+}
+.para{
+    font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+word-spacing: 8px;
+}
+.btn-des{
+    margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    text-align: center  ;
+    gap: 20px;
+}
+.btn-down{
+    font-family: 'Montserrat';
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+
+    background-color: #fff;
+border:0.5px solid rgba(35, 31, 32, 1);
+    width: 100%;
+    padding: 11px 0px 12px 0px;
+}
+.angle-down{
+    position: absolute;
+    right: 19px;
+}
+.dropdown{
+    position: relative;
+}

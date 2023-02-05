@@ -1,0 +1,412 @@
+* {
+  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.pd35 {
+  margin: 105px 35px;
+  padding: 20px;
+}
+.context {
+  margin-right: 47px;
+}
+.contentt,
+.context {
+  font-size: 24px;
+  line-height: 36px;
+  font: "Poppins";
+  font-weight: 500;
+}
+.item-padding {
+  margin: 81px 20px;
+}
+.mr55 {
+  margin-right: 55px;
+}
+.ml17 {
+  margin-left: 17px;
+}
+.m81 {
+  margin-left: 81px;
+}
+.mr81 {
+  margin-right: 81px;
+}
+.text {
+  text-transform: uppercase;
+}
+.break {
+  display: block;
+}
+.blue-color {
+  color: #004197;
+}
+.red-color {
+  color: #e2342d;
+}
+.promotion-header {
+  border-bottom: 1px solid #d2d2d2;
+  margin-top: 13px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.promotion-header > .promotion-list {
+  margin-left: 42px;
+}
+.promotion-list {
+  margin-bottom: 11px;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+.navbar-header {
+  margin: 30px 49px 67px 49px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-btn {
+  font-size: 22px;
+}
+.navbar-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.navbar-list > .navbar-item {
+  margin-left: 76px;
+}
+.navbar-item {
+  font-size: 16px;
+  line-height: 20px;
+  flex-wrap: wrap;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+}
+.macc {
+  text-align: center;
+}
+
+.navbar-item > .macc,
+.navbar-item > .ess {
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Monotype Corsiva, Times, Serif;
+  line-height: 45px;
+}
+.navbar-logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item-logo {
+  font-size: 20px;
+}
+.navbar-logo > .item-logo {
+  margin-left: 40px;
+}
+.service-introduce {
+  background-color: #f8f8f8;
+  display: flex;
+}
+.text-introduce {
+  margin: 90px 134px 0 80px;
+}
+.title-introduce {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 54px;
+  font-weight: 700;
+  color: #3a408c;
+  line-height: 81px;
+}
+
+.para-introduce {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 24px;
+  color: #707070;
+  margin-top: 14px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  text-align: left;
+}
+.black {
+  font-family: "Montserrat";
+  color: #707070;
+  font-weight: 700;
+}
+.learn-btn {
+  margin-top: 66px;
+}
+.learn-btn button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #fff;
+  background-color: #e2342d;
+  color: #fff;
+  line-height: 30px;
+  padding: 10px 50px 10px 40px;
+}
+.img-introduce {
+  margin: 56px 74px 56px 0;
+}
+.title-new-product {
+  text-align: center;
+  margin: 100px 0 35px 0;
+  font-family: "Poppins";
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+}
+.product {
+  border: 1px solid #fff;
+  position: relative;
+  background: #f3f3f3;
+}
+.products-list {
+  display: flex;
+}
+.top-seller {
+  background-color: #e2342d;
+  position: absolute;
+  right: 0px;
+}
+.text-seller {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Montserrat";
+  line-height: 30px;
+  margin: 5px 22px;
+  font-weight: 500;
+}
+.arrow {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: -37px;
+  border: 1px solid #fff;
+  background: #fff;
+  color: #4a4b4d;
+  font-size: 20px;
+  padding: 22px;
+  border-radius: 50%;
+}
+.arrow-right {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: -37px;
+  border: 1px solid #fff;
+  background: #fff;
+  color: #4a4b4d;
+  font-size: 20px;
+  padding: 22px;
+  border-radius: 50%;
+}
+.text-footer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 36px;
+  color: #1e1e20;
+}
+.contentt {
+  margin-left: 44px;
+}
+.weekly-discount {
+  margin-top: 100px;
+  display: flex;
+}
+.top-selling {
+  flex-direction: row-reverse;
+}
+.product-discount {
+  margin-left: 55px;
+}
+.product-item {
+  display: flex;
+}
+.header-discount {
+  display: flex;
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 54px;
+  margin: 27px 0px 33px 0px;
+}
+.view-btn {
+  margin-left: 46px;
+  line-height: 0px;
+}
+.view {
+  background: #d2d2d2;
+
+  padding: 10px 18px;
+  border: none;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.pad {
+  margin-left: 30px;
+}
+.item {
+  background-color: #f3f3f3;
+  position: relative;
+}
+.percent-discount {
+  position: absolute;
+  background-color: #e2342d;
+  right: 0;
+}
+
+.footer-discount {
+  display: flex;
+  justify-content: space-between;
+}
+.price-discount {
+  margin-left: 100px;
+  margin-top: 8px;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.text-discount {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.price {
+  display: flex;
+  font-size: 16px;
+  margin-left: 16px;
+  line-height: 24px;
+  margin-top: 3px;
+}
+.second-price {
+  margin-left: 20px;
+}
+.mr40 {
+  margin-right: 40px;
+}
+.product-sell {
+  margin-right: 50px;
+}
+.mr100 {
+  margin-right: 100px;
+}
+.text-covid19 {
+  text-align: center;
+  margin-top: 86px;
+}
+.header-covid19 {
+  font-family: "Poppins";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 63px;
+}
+.para-covid19 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-top: 16px;
+}
+#footer {
+  margin: 41px 97px 0px 56px;
+  display: flex;
+  gap: 120px;
+}
+.footer-content {
+  margin-top: 30px;
+}
+.logo-footer {
+  font-family: "Monotype Corsiva";
+  font-size: 54px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 61px;
+}
+.footer-list a,
+.footer-link a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 22px;
+  color: #222222;
+}
+.footer-list,
+.footer-link {
+  display: flex;
+  gap: 21px;
+  margin-top: 38px;
+  flex-direction: column;
+}
+.footer-link {
+  margin-left: 34px;
+}
+.footer-contact {
+  margin: 40px 0px 0px 41px;
+}
+.footer-para {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.footer-email {
+  margin-top: 45px;
+  position: relative;
+}
+
+.email-i {
+  font-size: 22px;
+  position: absolute;
+  right: 34px;
+}
+.input {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;
+  max-width: 390px;
+  line-height: 22px;
+  border: none;
+  border-bottom: 1px solid #222222;
+}
+
+.footer-social {
+  margin-top: 22px;
+  display: flex;
+  gap: 17px;
+}
+.logo-size {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+}
+.logo-social {
+  background-color: #004197;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.text-end-page {
+  margin: 70px 0px 36px 0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}

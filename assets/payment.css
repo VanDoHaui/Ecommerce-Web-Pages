@@ -1,0 +1,16 @@
+
+.custom-control{
+border: 1px solid #ccc;
+ font-family: 'Montserrat';
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+padding: 12px 0 16px 50px;
+width: 100%;
+}
+.col-full{
+    width: 100%;
+}
+.form-checkout{
+    margin-top: 21px;
+}

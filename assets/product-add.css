@@ -1,0 +1,20 @@
+.checkout-noti{
+    display: flex;
+    justify-content: center;
+    background-color:#29B3AC;
+    position: relative;
+    padding: 5px;
+}
+.text-noti{
+    color: #D2F0EE;
+    line-height: 24px;
+}
+.check,.close{
+    color: #fff;
+}
+
+.close{
+position: absolute;
+right: 50px;
+top: 8px;
+}
